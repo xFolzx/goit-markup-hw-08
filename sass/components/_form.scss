@@ -1,0 +1,76 @@
+.form {
+    margin-left: 93px;
+}
+
+.signup-input {
+    display: block;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    color: #ffffff;
+
+    padding: 15px 0 15px 16px;
+
+    margin-top: 20px;
+
+    &::placeholder {
+        letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+        }
+
+    }
+
+.signup-form {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.signup-lable {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.signup-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    background-color: var(--btn-hover-focus-bgd);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    border: none;
+    padding: 10px 0 10px 29px;
+    cursor: pointer;
+
+}
+
+.signup-svg {
+    display: flex;
+    margin-left: 10px;
+    fill: #ffffff;
+    margin-right: 28px;
+}

@@ -1,0 +1,24 @@
+.contact {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    display: flex;
+    ;
+    padding: 32px 0 32px 0;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--main-text-cl);
+
+    &:hover,
+    &:focus {
+    color: var(--btn-hover-focus-bgd);
+    }
+}
+
+
+
+
+
+
